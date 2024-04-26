@@ -1,0 +1,59 @@
+
+.date-picker-container {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 10px;
+}
+
+.date-picker-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.date-picker-header button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.date-picker-header span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.date-picker-calendar {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.date-picker-calendar th {
+  padding: 5px;
+  text-align: center;
+}
+
+.date-picker-calendar td {
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.current-month {
+  color: #333;
+}
+
+.other-month {
+  color: #ccc;
+}
+
+
+.selectedDate {
+  background-color: #e0f3ff;
+  border-radius: 50%;
+}

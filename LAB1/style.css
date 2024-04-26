@@ -1,0 +1,45 @@
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column_1 {
+    width: 30%;
+    float: left;
+}
+
+.column_2 {
+    width: 70%;
+}
+
+.b_h1 {
+    text-align: center;
+}
+
+.h_f {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 30px;
+}
+
+th {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+td {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.place_th {
+    border: none;
+    justify-content: center;
+}
